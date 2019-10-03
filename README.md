@@ -4,6 +4,8 @@
 
 Reverse Shell in Shortcut File (.lnk)
 
+![lnk](https://user-images.githubusercontent.com/34893261/66158011-6248c900-e5fb-11e9-84ad-ab04df52786c.png)
+
 ### How it works?
 
 Shortcut file (Microsoft Windows 9.x)
